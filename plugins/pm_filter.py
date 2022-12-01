@@ -239,7 +239,7 @@ async def next_page(bot, query):
         )
         btn.append(
             [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-             
+             InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
             ])
         btn.append(
             [InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
@@ -248,7 +248,9 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+             InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+            ])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     else:
         btn.append(
@@ -258,7 +260,9 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append([InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+        btn.append([InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+                    InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+                   ])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     try:
         await query.edit_message_reply_markup(
@@ -833,7 +837,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.append([
                 InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-            ])
+                InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+              ])
     btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
