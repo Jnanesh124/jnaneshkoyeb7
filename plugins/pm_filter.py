@@ -234,7 +234,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+            [InlineKeyboardButton("how to download", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
         btn.append(
             [InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")])
     elif off_set is None:
@@ -242,7 +242,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+            [InlineKeyboardButton("how to download", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
         btn.append([InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")])
     else:
         btn.append(
@@ -252,7 +252,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append([InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+        btn.append([InlineKeyboardButton("how to download", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
         btn.append([InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")])
     try:
         await query.edit_message_reply_markup(
