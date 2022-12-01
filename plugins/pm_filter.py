@@ -834,6 +834,10 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
              
         )
+        btn.append([
+                   InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"), 
+                   InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")] 
+        )
     else:                           
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
