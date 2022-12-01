@@ -238,7 +238,9 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+             
+            ])
         btn.append(
             [InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     elif off_set is None:
