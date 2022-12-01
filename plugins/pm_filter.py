@@ -208,8 +208,8 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url="https://t.me/+Rlq2sxuIJuZhMzM1"),
-             InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url="https://t.me/+rz0oJ4yZ04ViZmY1")]
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"),
+             InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")]
         )  
     else:
         btn = [
@@ -801,8 +801,8 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
             btn.insert(0, 
-                [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url="https://t.me/+Rlq2sxuIJuZhMzM1"), 
-                 InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url="https://t.me/+rz0oJ4yZ04ViZmY1")]
+                [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"), 
+                 InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")]
             )                             
     else:
         btn = [
