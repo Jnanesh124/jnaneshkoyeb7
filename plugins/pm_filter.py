@@ -822,8 +822,8 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
    btn.insert(0, 
-       [ 
-           InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/How_to_Download_From_Search_Bot/2')
+       [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"),
+        InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")         
        ] 
    )
     if offset != "":
