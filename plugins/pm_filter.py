@@ -234,9 +234,9 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url="https://t.me/+tU8INwk_RbRlYWM1")])
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
         btn.append(
-            [InlineKeyboardButton('🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥', url="https://t.me/+Rlq2sxuIJuZhMzM1")])
+            [InlineKeyboardButton('🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥', url=f"https://t.me/+Rlq2sxuIJuZhMzM1")])
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
@@ -253,7 +253,7 @@ async def next_page(bot, query):
             ],
         )
         btn.append([InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")])
-        btn.append([InlineKeyboardButton('🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥', url="https://t.me/+Rlq2sxuIJuZhMzM1")])
+        btn.append([InlineKeyboardButton('🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥', url=f"https://t.me/+Rlq2sxuIJuZhMzM1")])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
