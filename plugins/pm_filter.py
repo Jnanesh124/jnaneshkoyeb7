@@ -567,8 +567,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('Channel 👀', url='https://t.me/ROCKERSBACKUP'),
-            InlineKeyboardButton('Group 💝', url='https://t.me/ASK_YOUR_MOVIES_HD')
+            InlineKeyboardButton('🔞adult channel', url='https://t.me/fuckofficialforu'),
+            InlineKeyboardButton('🛒 apk games', url='https://t.me/+AChJcx5l-jc2NWRl')
         ], [
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 💥', callback_data='about')
@@ -805,7 +805,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂[{get_size(file.file_size)}] {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
+                    text=f"⚡ [{get_size(file.file_size)}] {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
             ]
             for file in files
