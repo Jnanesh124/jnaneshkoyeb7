@@ -208,8 +208,8 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"),
-             InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")]
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+             InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌  🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")]
         )  
     else:
         btn = [
@@ -225,8 +225,8 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"),
-             InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")]
+            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+             InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")]
         )  
 
     if 0 < offset <= 10:
@@ -835,16 +835,16 @@ async def auto_filter(client, msg, spoll=False):
              
         )
         btn.append([
-                   InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"), 
-                   InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")] 
+                   InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"), 
+                   InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")] 
         )
     else:                           
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
              )
     btn.append([
-               InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+Rlq2sxuIJuZhMzM1"),
-               InlineKeyboardButton("🖥 𝐑𝐨𝐜𝐤𝐞𝐫'𝐬 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 UPDATES 🖥", url=f"https://t.me/+rz0oJ4yZ04ViZmY1")    
+               InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
+               InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌  🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")    
              ])
     btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
