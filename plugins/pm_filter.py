@@ -242,8 +242,8 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-             InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+            [InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
+             InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
             ])
         btn.append(
             [InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
@@ -252,8 +252,8 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-             InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+            [InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
+             InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
             ])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     else:
@@ -264,8 +264,8 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append([InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-                    InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1")
+        btn.append([InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
+                    InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
                    ])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     try:
