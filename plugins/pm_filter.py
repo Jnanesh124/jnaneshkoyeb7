@@ -843,8 +843,8 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
              )
     btn.append([
-               InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"),
-               InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌  🖥", url=f"https://t.me/+Rlq2sxuIJuZohMzM1")    
+               InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
+               InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")    
              ])
     btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
