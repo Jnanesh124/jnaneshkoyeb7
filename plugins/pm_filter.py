@@ -246,7 +246,7 @@ async def next_page(bot, query):
              InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
             ])
         btn.append(
-            [InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
+            [InlineKeyboardButton("how to download movies 🔎", url=f"https://t.me/+Rf7HPykmLC5hOWQ9")])
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
@@ -255,7 +255,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
              InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
             ])
-        btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
+        btn.append([InlineKeyboardButton("how to download movies 🔎", url=f"https://t.me/+Rf7HPykmLC5hOWQ9")])
     else:
         btn.append(
             [
@@ -267,7 +267,7 @@ async def next_page(bot, query):
         btn.append([InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
                     InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")
                    ])
-        btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
+        btn.append([InlineKeyboardButton("how  to  download movies 🔎", url=f"https://t.me/+Rf7HPykmLC5hOWQ9")])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -846,7 +846,7 @@ async def auto_filter(client, msg, spoll=False):
                InlineKeyboardButton("🛒 Apk apps store", url=f"https://t.me/+AChJcx5l-jc2NWRl"),
                InlineKeyboardButton("🚫18+ adult channel", url=f"https://t.me/fuckofficialforu")    
              ])
-    btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])     
+    btn.append([InlineKeyboardButton("how to download movies 🔎", url=f"https://t.me/+Rf7HPykmLC5hOWQ9")])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
