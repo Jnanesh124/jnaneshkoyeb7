@@ -836,7 +836,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.append([
                    InlineKeyboardButton("ROCKER'S OFFICIAL ©️", url=f"https://t.me/+tU8INwk_RbRlYWM1"), 
-                   InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥", url=f"https://t.me/+Rlq2sxuIJuZohMzM1")] 
+                   InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥", url=f"https://t.me/+Rlq2sxuIJuZhMzM1")] 
         )
     else:                           
         btn.append(
