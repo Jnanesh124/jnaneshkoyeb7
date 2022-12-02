@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Main Channel 💝', url='https://t.me/ROCKERSBACKUP')
+                InlineKeyboardButtt('🔞adult channel', url='https://t.me/fuckofficialforu')
             ],
             [
                 InlineKeyboardButton('Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -42,15 +42,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Any help msg', url='https://t.me/Beastonejnanesh')
+            InlineKeyboardButton('🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥', url='https://t.me/+Rlq2sxuIJuZhMzM1')
             ],[
-            InlineKeyboardButton('Channel 💝', url='https://t.me/ROCKERSBACKUP'),
-            InlineKeyboardButton('Group 💝', url='https://t.me/ASK_YOUR_MOVIES_HD')
+            InlineKeyboardButton('🔞adult channel', url='https://t.me/fuckofficialforu'),
+            InlineKeyboardButton('🛒 apk games', url='https://t.me/+AChJcx5l-jc2NWRl')
             ],[
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 🙈', callback_data='about')
             ],[
-            InlineKeyboardButton('Any help msg',url='https://t.me/Beastonejnanesh')
+            InlineKeyboardButton('🖥 𝐎𝐓𝐓 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 🖥',url='https://t.me/+Rlq2sxuIJuZhMzM1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,7 +93,7 @@ async def start(client, message):
             InlineKeyboardButton('Any help msg', url='https://t.me/Beastonejnanesh')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Channel 💝', url='https://t.me/ROCKERSBACKUP')
+            InlineKeyboardButton('🔞adult channel', url='https://t.me/fuckofficialforu')
             ],[
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 🙈', callback_data='about')
